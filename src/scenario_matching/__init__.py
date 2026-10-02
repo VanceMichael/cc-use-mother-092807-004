@@ -1,0 +1,53 @@
+"""创新场景供需撮合与阶段成果验收后端。"""
+
+from .backend import ScenarioMatchingBackend
+from .domain import (
+    Actor,
+    ActorRole,
+    Agreement,
+    AuthorizationError,
+    Capability,
+    CapacityError,
+    ConflictError,
+    DisclosureError,
+    DomainError,
+    DuplicateSubmissionError,
+    EvaluationError,
+    FrozenRef,
+    MatchCase,
+    MatchStatus,
+    Material,
+    Milestone,
+    MilestoneError,
+    NegotiationRecord,
+    Opportunity,
+    Scope,
+    ScopeError,
+    VersionStateError,
+)
+from .store import EventStore
+
+__all__ = [
+    "ScenarioMatchingBackend",
+    "EventStore",
+    "Actor",
+    "ActorRole",
+    "Agreement",
+    "AuthorizationError",
+    "Capability",
+    "CapacityError",
+    "ConflictError",
+    "DisclosureError",
+    "DomainError",
+    "DuplicateSubmissionError",
+    "EvaluationError",
+    "FrozenRef",
+    "MatchCase",
+    "MatchStatus",
+    "Material",
+    "Milestone",
+    "NegotiationRecord",
+    "Opportunity",
+    "Scope",
+    "VersionStateError",
+]
